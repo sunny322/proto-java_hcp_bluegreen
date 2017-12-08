@@ -38,10 +38,10 @@
     <!-- mvn clean verify -P cloud-integration-tests ... -Dsap.cloud.host=hanatrial.ondemand.com -->
 
     <!-- Property that holds the name of the application under which it will later appear in the cloud -->
-    <sap.cloud.host>${env.SAP_CLOUD_HOST}</sap.cloud.host>
-    <sap.cloud.account>${env.SAP_CLOUD_ACCOUNT}</sap.cloud.account>
-    <sap.cloud.username>${env.SAP_CLOUD_USERNAME}</sap.cloud.username>
-    <sap.cloud.password>${env.SAP_CLOUD_PASSWORD}</sap.cloud.password>
+    <sap.cloud.host>hanatrial.ondemand.com</sap.cloud.host>
+    <sap.cloud.account>i324317trial</sap.cloud.account>
+    <sap.cloud.username>I324317</sap.cloud.username>
+    <sap.cloud.password>july@2017</sap.cloud.password>
     <sap.cloud.application>sample</sap.cloud.application>
 
     <!-- Properties that hold the local server configuration required for local integration-testing -->
